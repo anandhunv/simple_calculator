@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "fonts";
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family: "op";
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #a5a7b1;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card{
+    width: 400px;
+height: auto;
+    border-radius: 12px;
+box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+   padding: 20px; 
+  
+}
+
+.display input{
+border: 0;
+outline: 0;
+width: 100%;
+height: 50px;
+border-radius: 8px;
+background-color: #c2c5d1;
+/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05); */
+font-family: "display";
+font-size: 30px;
+padding-left: 20px;
+
+}
+
+input[type=button]{
+    outline: 0;
+    border: 0;
+    border-radius: 12px;
+    background-color: #dedfe8;
+box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5), -4px -4px 16px rgba(255, 255, 255, 0.05);
+   padding: 18px; 
+   margin: 10px;
+   font-size: 20px;
+   width: 65px;
+   height: 65px;
+   font-family: "fonts";
+   cursor: pointer;
+ 
+}
+
+   
+
+input[type=button]:hover{
+    background-color: #ffffff;
+}
+
+input.equal{
+    width: 150px;
+}
+
+.operator{
+color: darkslateblue;
+}
+a{
+    color: forestgreen;
+    margin-left: 40%;
+    text-decoration: none;
+
+}
